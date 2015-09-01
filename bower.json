@@ -1,0 +1,32 @@
+{
+  "name": "btheme",
+  "version": "0.0.1",
+  "homepage": "https://github.com/HierenFeb/btheme",
+  "authors": [
+    "Hieren Feb <feb@geekpolis.com>"
+  ],
+  "description": "Drupal theme bootstrap with styleguide",
+  "keywords": [
+    "drupal",
+    "theme",
+    "bootstrap",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "install": {
+    "path": "./",
+    "sources": {
+      "bootstrap": "bower_components/bootstrap/**"
+    }
+  },
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

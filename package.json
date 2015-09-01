@@ -1,0 +1,31 @@
+{
+  "name": "btheme",
+  "version": "1.0.0",
+  "description": "Drupal theme bootstrap with styleguide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HierenFeb/btheme.git"
+  },
+  "keywords": [
+    "drupal",
+    "theme",
+    "boostrap",
+    "styleguide"
+  ],
+  "author": "feb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HierenFeb/btheme/issues"
+  },
+  "homepage": "https://github.com/HierenFeb/btheme#readme",
+  "dependencies": {
+    "bower-installer": "^1.2.0"
+  },
+  "scripts": {
+    "postinstall": "bower-installer"
+  }
+}
