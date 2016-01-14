@@ -1,4 +1,4 @@
-name = Btheme
+name = btheme
 description = A Bootstrap Sub-theme with auto generate styleguide page customized by Gp's team.
 core = 7.x
 base theme = bootstrap
@@ -51,9 +51,11 @@ stylesheets[all][] = css/style.css
 ; scripts[] = 'bootstrap/js/scrollspy.js'
 ; scripts[] = 'bootstrap/js/tab.js'
 ; scripts[] = 'bootstrap/js/transition.js'
-;
+
+scripts[] = 'bootstrap/javascripts/bootstrap.js'
+
 ; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
-; settings[bootstrap_cdn] = ''
+settings[bootstrap_cdn] = ''
 
 
 ; ;-------------------------

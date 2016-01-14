@@ -27,6 +27,5 @@ build/Release
 node_modules
 
 # Dependency directory
-bootstrap
 bower_components
 jquery
